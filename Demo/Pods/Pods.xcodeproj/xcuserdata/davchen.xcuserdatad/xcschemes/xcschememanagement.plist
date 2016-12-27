@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Braintree-Braintree-Drop-In-Localization.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -15,6 +20,11 @@
 			<false/>
 		</dict>
 		<key>Braintree.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Moltin.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,17 +42,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4275373DBD72D3FBBEE7FB8E00CBCEAF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>718D302F2AF22AAB733FDC961931108D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E97BDDCCFF16A910C000E8B1D89C9277</key>
+		<key>745ED4AAAE6B3BA93A08EEE1E24609E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FD799A0F39175E0EA1B1689F599DD782</key>
+		<key>E97BDDCCFF16A910C000E8B1D89C9277</key>
 		<dict>
 			<key>primary</key>
 			<true/>

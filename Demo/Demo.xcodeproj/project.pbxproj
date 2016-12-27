@@ -51,6 +51,7 @@
 		6D46BBA91CADCBB8003A6B9E /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D46BBAD1CADCBB8003A6B9E /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		6D46BBAF1CADCBB8003A6B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC656271CDC075300DA4D09 /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		6F2D2FB1FF8077A169886BF7 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E191E78F56EFA524BEB7A04D /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +116,7 @@
 		6D46BB891CADCBB7003A6B9E /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				6DC656271CDC075300DA4D09 /* Demo-Bridging-Header.h */,
 				6D46BB8A1CADCBB7003A6B9E /* AppDelegate.swift */,
 				6D46BB8C1CADCBB7003A6B9E /* ViewController.swift */,
 				6D46BB8E1CADCBB7003A6B9E /* Main.storyboard */,

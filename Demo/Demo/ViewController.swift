@@ -8,6 +8,7 @@
 
 import UIKit
 import Braintree
+import Moltin
 
 class ViewController: UIViewController, BTDropInViewControllerDelegate {
 
@@ -21,6 +22,8 @@ class ViewController: UIViewController, BTDropInViewControllerDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         title = "Checkout Page"
         print("Ready to Go!")
+        
+        Moltin.sharedInstance().setPublicId("svWjeKkRtf4RQNG0v7r7YKMokkAU9kJYj4u4zVLotG")
         
         let clientTokenURL = NSURL(string: "http://localhost:8888/V.ZeroPHPServer/server.php")!
         let clientTokenRequest = NSMutableURLRequest(URL: clientTokenURL)

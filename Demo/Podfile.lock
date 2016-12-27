@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - Braintree (4.2.3):
     - Braintree/Card (= 4.2.3)
     - Braintree/Core (= 4.2.3)
@@ -17,11 +32,16 @@ PODS:
   - Braintree/UI (4.2.3):
     - Braintree/Card
     - Braintree/Core
+  - Moltin (1.1):
+    - AFNetworking
 
 DEPENDENCIES:
   - Braintree
+  - Moltin
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Braintree: 05791bdc6d43c3faf2f802dd2d687e9f619f7f57
+  Moltin: cd5aadb8d3a1a3252f45eb4bdecc0e32d9d2c948
 
 COCOAPODS: 0.39.0

@@ -84,8 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-Demo/AFNetworking.framework"
   install_framework "Pods-Demo/Braintree.framework"
+  install_framework "Pods-Demo/Moltin.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-Demo/AFNetworking.framework"
   install_framework "Pods-Demo/Braintree.framework"
+  install_framework "Pods-Demo/Moltin.framework"
 fi
